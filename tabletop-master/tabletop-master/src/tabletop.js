@@ -1,3 +1,13 @@
+function init() {
+Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/1oANUf10vKh8iL8c1v6jcEctIMt7_bHqDfcq2OE3yyew/pubhtml',
+callback: function(data, tabletop) {
+console.log(data)
+},
+simpleSheet: true } )
+}
+window.addEventListener(‘DOMContentLoaded’, init)
+
+
 (function() {
   'use strict';
 
