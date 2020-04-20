@@ -218,3 +218,7 @@ section.footer .media {
     color: #f2f2f2;
   }
 }
+
+.form label{float:left;}
+.form input{margin-left:200px;} /* this gives space for the label on the left */
+.form .clear{clear:both;} /* prevent elements from stacking weirdly */
