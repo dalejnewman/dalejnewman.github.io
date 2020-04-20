@@ -34,10 +34,8 @@
     body16.innerHTML = data.body16;
     body17.innerHTML = data.body17;
 
- })    
-    
-    ;
-  }
+ });
+}
 
   window.addEventListener('DOMContentLoaded', init)
 </script>
