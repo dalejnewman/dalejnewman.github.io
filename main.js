@@ -9,7 +9,6 @@ var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1oANUf10vKh8i
   }
 
   function showInfo(data, tabletop) {
-   
     data.forEach(function(data) {
     header.innerHTML = data.header;
     header2.innerHTML = data.header2;
