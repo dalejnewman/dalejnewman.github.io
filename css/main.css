@@ -217,6 +217,16 @@ section.footer .media {
     height: 25px;
     color: #f2f2f2;
   }
+
+section.form {
+color: #f4f5f6;
+
+.form label{float:left;}
+.form input{float:left;} /* this gives space for the label on the left */
+.form textarea{float:left;}
+.form .clear{clear:both;} /* prevent elements from stacking weirdly */
+
+  }
 }
 
 .form label{float:left;}
