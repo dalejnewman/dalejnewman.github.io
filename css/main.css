@@ -221,5 +221,5 @@ section.footer .media {
 
 .form label{float:left;}
 .form input{float:left;} /* this gives space for the label on the left */
-.form textextra{float:left;}
+.form textarea{float:left;}
 .form .clear{clear:both;} /* prevent elements from stacking weirdly */
