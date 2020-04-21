@@ -219,7 +219,7 @@ section.footer .media {
   }
 
 section.form {
-color: #00FFFF;
+background-color: #00FFFF;
 
 .form label{float:left;}
 .form input{float:left;} /* this gives space for the label on the left */
