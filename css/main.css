@@ -171,7 +171,7 @@ section.footer .media {
   }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 500px) {
   header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white)), url(https://res.cloudinary.com/dpkreativ/image/upload/v1575491162/Clipboard%20Landing%20Page/bg-header-mobile_zynglc.png);
     background-image: linear-gradient(rgba(255, 255, 255, 0), white), url(https://res.cloudinary.com/dpkreativ/image/upload/v1575491162/Clipboard%20Landing%20Page/bg-header-mobile_zynglc.png);
