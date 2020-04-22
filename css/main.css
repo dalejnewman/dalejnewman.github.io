@@ -232,6 +232,9 @@ background-color: #00FFFF;
 input, select, textarea {
 background-color: #bde9ba;
 }
+#example {
+background-color: #ffffff;
+}
 
 .form label{float:left;}
 .form input{float:left;} /* this gives space for the label on the left */
