@@ -230,10 +230,10 @@ background-color: #00FFFF;
 }
 
 input, select, textarea {
-background-color: #bde9ba;
+background-color: #0000ff;
 }
 #example {
-background-color: #0000ff;
+background-color: #bde9ba;
 }
 
 .form label{float:left;}
