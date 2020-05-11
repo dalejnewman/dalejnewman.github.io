@@ -67,8 +67,8 @@ body .button-box button.mac-button {
 body .button-box button.linux-button {
   background-color: #61efff;
   border-bottom: 2.5px solid #5766db;
-  -webkit-box-shadow: 0px 2px 20px rgba(87, 102, 219, 0.5);
-          box-shadow: 0px 2px 20px rgba(87, 102, 219, 0.5);
+  -webkit-box-shadow: 0px 2px 20px rgba(141, 72, 287, 0.5);
+          box-shadow: 0px 2px 20px rgba(141, 72, 287, 0.5);
 }
 
 footer {
