@@ -20,6 +20,8 @@ var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1oANUf10vKh8i
     body6.innerHTML = data.body6;
     body7.innerHTML = data.body7;
     body8.innerHTML = data.body8;
+    body9.innerHTML = data.body9;
+    body10.innerHTML = data.body10;
  });
 }
 
