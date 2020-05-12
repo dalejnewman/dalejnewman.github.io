@@ -120,6 +120,7 @@ section.footer .media {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
     text-align: left; 3rem;
+    grid-template-rows: auto;
   }
   section.feature .track-snippets .snippet-right {
     margin: 0 4rem;
