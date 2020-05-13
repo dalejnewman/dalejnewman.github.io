@@ -241,4 +241,5 @@ background-color: #bae7e9;
 .form input{float:left;} /* this gives space for the label on the left */
 .form textarea{float:left;}
 .form .clear{clear:both;} /* prevent elements from stacking weirdly */
+}
 
