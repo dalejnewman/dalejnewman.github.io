@@ -237,7 +237,7 @@ fieldset {
 input, select, textarea {
 background-color: #bae7e9;
 }
-.form-inline {
+.form {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
