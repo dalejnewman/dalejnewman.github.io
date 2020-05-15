@@ -237,7 +237,7 @@ input, select, textarea {
 background-color: #bae7e9;
 }
 .form label{float:left;}
-.form input{float:left;} /* this gives space for the label on the left */
+.form input{float:right;} /* this gives space for the label on the left */
 .form textarea{float:left;}
 .form .clear{clear:both;} /* prevent elements from stacking weirdly */
 
