@@ -1,9 +1,51 @@
 <html>
+
 <head>
-<script src="https://cdn.anychart.com/releases/8.6.0/js/anychart-core.min.js"> </script> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/logos.png"
+    />
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap" rel="stylesheet">
+    <title>Scaiffie</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+        text-decoration: none;
+        font-size: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Start Banner -->
+    <header>
+      <div class="banner">
+        <img src="img/DaleHead.png" alt="" class="logo" width="200" height="200"/>
+        <h1 id="header" class="banner-header"></h1>
+        <p id="header2" class="banner-paragraph">
+          
+        </p>
+        <div class="button-box">
+          <a href="https://dalejnewman.com/products"><button class="ios-button">Products</button></a>
+          <a href="https://dalejnewman.com/projects"><button class="mac-button">Projects</button></a>
+          <a href="https://dalejnewman.com"><button class="tab-button">Home</button></a>
+          <a href="https://dalejnewman.com/progress"><button class="linux-button">Progress</button></a>
+        </div>
+      </div>
+    </header>
+	<script src="https://cdn.anychart.com/releases/8.6.0/js/anychart-core.min.js"> </script> 
 <script src ="https://cdn.anychart.com/releases/8.6.0/js/anychart-gantt.min.js"></script>
 </head>
-<body>
+
 <div id = "container" > </div>
 <script>
 anychart.onDocumentReady(function () {
