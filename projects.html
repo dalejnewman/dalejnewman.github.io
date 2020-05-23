@@ -53,7 +53,7 @@ anychart.onDocumentReady(function () {
 		id: "1",
 		name: "Project Success - Chronologically",
 		actualStart: Date.UTC(2001, 01, 02),
-		actualEnd: Date.UTC(2020, 06, 30),
+		actualEnd: Date.UTC(2020, 07, 01),
 		children: [{
 				id: "1_1",
 				name: "CHOGM - IT Infrastructure",
@@ -148,19 +148,9 @@ anychart.onDocumentReady(function () {
 			
 			   },
 			   {
-				   id: "1_12_1",
-				name: "5iQ - SaaS Customer Mobile apps",
-				actualStart: Date.UTC(2018, 07, 01),
-				actualEnd: Date.UTC(2019, 07, 01),
-				connectTo: "1_13",
-				connectorType: "finish-start",
-				progressValue: "100%"
-			   
-			   },
-			     {
 				id: "1_13",
 				name: "Vineux Consulting  - SaaS & Change Management Projects",
-				actualStart: Date.UTC(2019, 07, 01),
+				actualStart: Date.UTC(2012, 07, 01),
 				actualEnd: Date.UTC(2020, 07, 01),
 				progressValue: "45%"
 			},
@@ -176,7 +166,7 @@ anychart.onDocumentReady(function () {
 	// set the data
 	chart.data(treeData);
 	// configure the scale
-	chart.getTimeline().scale().maximum(Date.UTC(2018, 06, 30));
+	chart.getTimeline().scale().maximum(Date.UTC(2020, 07, 01));
 	// set the container id
 	chart.container("container");
 	// initiate drawing the chart
