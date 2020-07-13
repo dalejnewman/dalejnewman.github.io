@@ -57,7 +57,7 @@ body .button-box button.ios-button {
           box-shadow: 0px 2px 20px rgba(39, 170, 151, 0.5);
 }
   
-.ios-button:hover {
+button.ios-button:hover {
 text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -71,7 +71,7 @@ body .button-box button.mac-button {
   -webkit-box-shadow: 0px 2px 20px rgba(87, 102, 219, 0.5);
           box-shadow: 0px 2px 20px rgba(87, 102, 219, 0.5);
 }
-.mac-button:hover {
+button.mac-button:hover {
 text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -85,7 +85,7 @@ body .button-box button.tab-button {
   -webkit-box-shadow: 0px 2px 20px rgba(198, 42, 287, 0.5);
           box-shadow: 0px 2px 20px rgba(198, 42, 287, 0.5);
 }
-.tab-button:hover {
+button.tab-button:hover {
 text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
@@ -99,7 +99,7 @@ body .button-box button.linux-button {
   -webkit-box-shadow: 0px 2px 20px rgba(141, 72, 355, 0.5);
           box-shadow: 0px 2px 20px rgba(141, 72, 355, 0.5);
 }
-.linux-button:hover {
+button.linux-button:hover {
 text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
